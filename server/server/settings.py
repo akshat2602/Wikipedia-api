@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "djoser",
     "drf_yasg",
+    "core",
 ]
 
 MIDDLEWARE = [
@@ -161,17 +162,17 @@ SWAGGER_SETTINGS = {
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Admin Panel",
+    "site_title": "Wikipedia Server Admin Panel",
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Server",
-    "site_header": "Server",
+    "site_brand": "Wikipedia Server",
+    "site_header": "Wikipedia Server",
     # CSS classes that are applied to the logo above
     "site_logo_classes": "img-circle",
     # Relative path to a favicon for your site, will default to site_logo if absent (ideally 32x32 px)
     "site_icon": None,
     # "related_modal_active": True,
     # Welcome text on the login screen
-    "welcome_sign": "Welcome to the Server Admin Panel",
+    "welcome_sign": "Welcome to the Wikipedia Server Admin Panel",
     "show_ui_builder": True,
 }
 JAZZMIN_UI_TWEAKS = {

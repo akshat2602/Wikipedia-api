@@ -46,4 +46,6 @@ urlpatterns += [
     # Auth endpoints
     url(r'^auth/', include('djoser.urls')),
     url(r'^auth/', include('djoser.urls.jwt')),
+    # Core endpoints
+    url('' , include('core.urls')),
 ]
