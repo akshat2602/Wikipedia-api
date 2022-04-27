@@ -16,7 +16,7 @@ services:
       - cache_vol:/var/cache
       - tmp_vol:/tmp
     env_file:
-      - .env.dev
+      - .env
     environment:
       - DJANGO_DEBUG=False
       - GUNICORN_WORKERS=5
@@ -45,7 +45,7 @@ services:
     container_name: db
     image: postgres
     env_file:
-      - .env.dev
+      - .env
 
 volumes:
   run_vol:
