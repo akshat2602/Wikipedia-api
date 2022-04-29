@@ -24,21 +24,16 @@ services:
 
   client:
     container_name: client
-    build: ./client
-    stdin_open: true
-    tty: true
-    working_dir: /src
-    ports:
-      - "3000:3000"
+    build:
+      context: ./client
     volumes:
       - ./client:/src
+    ports:
+      - 3000:3000
     env_file:
       - .env.dev
     command: >
-      sh -c "npm install -g npm@latest && npm install && npm run dev"
-    depends_on:
-      - server
-      - db
+      sh -c "npm install && npm start"
 
   db:
     container_name: db

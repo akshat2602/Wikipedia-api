@@ -12,4 +12,5 @@ urlpatterns = router.urls
 urlpatterns += [
     path('sentence/list/<uuid:id>', views.SentenceListAPIView.as_view()),
     path('sentence/update/<uuid:id>', views.SentenceUpdateAPIView.as_view()),
+    path('languages/', views.LanguageGetView.as_view()),
 ]
