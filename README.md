@@ -1,5 +1,5 @@
 
-# Ai4Bharat Task!
+# AI4Bharat Task!
 
 This is the task for Ai4Bharat SE internship
 
