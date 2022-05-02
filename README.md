@@ -15,6 +15,7 @@ This is the task for Ai4Bharat SE internship
 -   Added Chakra UI and Chakra icons in the frontend as a design and component library alongwith axios for making api calls.
 
 ## Demo of the platform
+Please increase the YouTube player volume to the max as there seems to be some kind of audio encoding issue and my mic volume is really low in the uploaded version!
 [![Watch the video](https://img.youtube.com/vi/qRQyaNZk-ls/maxresdefault.jpg)](https://youtu.be/qRQyaNZk-ls)
 
 
