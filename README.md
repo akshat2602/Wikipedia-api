@@ -14,6 +14,10 @@ This is the task for Ai4Bharat SE internship
 -   A react client has been preinstalled and integrated with docker-compose.
 -   Added Chakra UI and Chakra icons in the frontend as a design and component library alongwith axios for making api calls.
 
+## Demo of the platform
+[![Watch the video](https://img.youtube.com/vi/qRQyaNZk-ls/maxresdefault.jpg)](https://youtu.be/qRQyaNZk-ls)
+
+
 ## Getting Started
 To get a local copy of this template up and running on your machine, follow these simple steps.
 ### Prerequisites
